@@ -1,0 +1,245 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Nakka Chakradhar},reference={nakka-chakradhar}]
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2016-2020 (expected)}
+  {\bf BTech, Electrical Engineering}; Indian Institute of Technology
+  (Hyderabad)
+
+  Currently pursuing Bachelor of Technology, third year and Honors
+  specialization in Electrical Engineering.
+
+  Current CGPA -- 8.8
+\stopdescription
+
+\startdescription{2014-2016}
+  {\bf Intermediate Education}; FIITJEE Saifabad Campus (Hyderabad)
+
+  Got a fee waiver of 60\letterpercent{} after an All India entrance
+  test
+
+  Cumulative marks -- 981/1000
+\stopdescription
+
+\startdescription{2010-2014}
+  {\bf Primary Education}; Little Flower High School (Hyderabad)
+
+  Consistently scored the highest in my peer group.
+
+  CGPA -- 9.7
+\stopdescription
+
+\subsection[title={Projects},reference={projects}]
+
+{\bf Facial Recognition with OpenCV, DLib and a flavor of FaceNet}
+
+Implimented a real-time face recognition on Web-cam footage
+
+\startitemize
+\item
+  Achieved 98\letterpercent{} accuracy on a custom made dataset.
+\item
+  Face recognition on videos was achieved at 24 FPS. The input was a
+  60FPS capable 720p webcam
+\item
+  \useURL[url1][http://www.example.com][][GitHub repo]\from[url1]
+\stopitemize
+
+{\bf Gait recognition with Keras}
+
+Implimented a gait-recognition deep-net by cascading two networks -
+HumanPoseNN and GaitNN.
+
+\startitemize
+\item
+  Achieved an accuracy of 92.8\letterpercent{}
+\item
+  \useURL[url2][http://www.example.com][][GitHub repo]\from[url2]
+\stopitemize
+
+{\bf Lung Tumor Segmentation}
+
+Worked on segmentation of lung tumors on DICOM images as a part of IEEE
+VIP-CUP problem statement (VIP-CUP 2018).
+
+{\bf Inter IIT Tech Meet 2017}
+
+Worked on the Soldier Support Problem statement offered by DRDO. The
+problem statement involved 4 sub problem statements
+
+\startitemize
+\item
+  Gesture Recognition: Made a functional gesture recognition module
+  attached to a glove, capable of capturing any hand movement in 3-D
+  space.
+
+  \startitemize[packed]
+  \item
+    The module could guess 39 out of 43 gestures specified by DRDO, with
+    probability 1
+  \stopitemize
+\item
+  AD-HOC Localization: Implemented localization of Raspberry PIs in an
+  Ad-hoc network to locate and pin- point any device in the network.
+
+  \startitemize[packed]
+  \item
+    The module was capable of tracking nodes in a radius of 100m in
+    closed room environment and around 200m in an outdoor environment.
+  \stopitemize
+\stopitemize
+
+{\bf Smart Meter}
+
+Made a working prototype of a smart energy meter capable of tracking
+energy consumption and relaying it to a server in real-time.
+
+\subsection[title={Work Experience},reference={work-experience}]
+
+\startdescription{2018}
+  {\bf Summer Internship}; NemoCare (CFHE - IIT Hyderabad)
+
+  Took up an internship as an IoT developer. Worked on a module to
+  collect and transmit health data of infants to a single hub
+
+  Used Arduino IDE and open-source I2C libraries for the same
+\stopdescription
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+{\bf Machine Learning and Deep Learning Frameworks} :
+
+\startitemize[packed]
+\item
+  Tensorflow
+\item
+  Keras
+\item
+  Scikit-learn
+\stopitemize
+
+{\bf Programming Languages} :
+
+\startitemize[packed]
+\item
+  Python (Proficient)
+\item
+  C (Intermediate)
+\item
+  Bash
+\item
+  Latex
+\item
+  Octave
+\stopitemize
+
+{\bf Related Coursework} :
+
+I've undertaken courses in Introduction to AI and ML, Representation
+Learning, Data analytics, Random process, Linear Algebra, Digital
+Modulation Techniques, Information Theory, Digital Signal Processing,
+IoT and persued mini-projects in the same.
+
+\useURL[url3][https://github.com/chakri1804][][GitHub Repo]\from[url3]
+
+\subsection[title={Achievements and
+CCA},reference={achievements-and-cca}]
+
+\startitemize[packed]
+\item
+  Got selected in the KVPY programme and was eligible for KVPY
+  scholarship
+\item
+  Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for
+  our Smart power meter project
+\item
+  Secured AIR 2015 in JEE-Advanced 2016
+\item
+  Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad
+\item
+  Worked as Teaching Assistant under Dr.Sushmee Badhulika (Electric
+  Circuits course)
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url4][mailto:chakri1804@gmail.com][][chakri1804@gmail.com]\from[url4]
+,
+\useURL[url5][mailto:ee16btech11022@iith.ac.in][][ee16btech11022@iith.ac.in]\from[url5]
+• +91 8500584109 • 19 years old\crlf
+Address - 17-1-388/P/82, Purnodaya Colony, Saidabad, Hyderabad
+\stopblockquote
+
+\stoptext

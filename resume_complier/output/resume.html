@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="nakka-chakradhar">Nakka Chakradhar</h1>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2016-2020 (expected)</dt>
+<dd><p><strong>BTech, Electrical Engineering</strong>; Indian Institute of Technology (Hyderabad)</p>
+<p>Currently pursuing Bachelor of Technology, third year and Honors specialization in Electrical Engineering.</p>
+<p>Current CGPA – 8.8</p>
+</dd>
+<dt>2014-2016</dt>
+<dd><p><strong>Intermediate Education</strong>; FIITJEE Saifabad Campus (Hyderabad)</p>
+<p>Got a fee waiver of 60% after an All India entrance test</p>
+<p>Cumulative marks – 981/1000</p>
+</dd>
+<dt>2010-2014</dt>
+<dd><p><strong>Primary Education</strong>; Little Flower High School (Hyderabad)</p>
+<p>Consistently scored the highest in my peer group.</p>
+<p>CGPA – 9.7</p>
+</dd>
+</dl>
+<h2 id="projects">Projects</h2>
+<p><strong>Facial Recognition with OpenCV, DLib and a flavor of FaceNet</strong></p>
+<p>Implimented a real-time face recognition on Web-cam footage</p>
+<ul>
+<li><p>Achieved 98% accuracy on a custom made dataset.</p></li>
+<li><p>Face recognition on videos was achieved at 24 FPS. The input was a 60FPS capable 720p webcam</p></li>
+<li><p><a href="http://www.example.com" target="_blank">GitHub repo</a></p></li>
+</ul>
+<p><strong>Gait recognition with Keras</strong></p>
+<p>Implimented a gait-recognition deep-net by cascading two networks - HumanPoseNN and GaitNN.</p>
+<ul>
+<li><p>Achieved an accuracy of 92.8%</p></li>
+<li><p><a href="http://www.example.com" target="_blank">GitHub repo</a></p></li>
+</ul>
+<p><strong>Lung Tumor Segmentation</strong></p>
+<p>Worked on segmentation of lung tumors on DICOM images as a part of IEEE VIP-CUP problem statement (VIP-CUP 2018).</p>
+<p><strong>Inter IIT Tech Meet 2017</strong></p>
+<p>Worked on the Soldier Support Problem statement offered by DRDO. The problem statement involved 4 sub problem statements</p>
+<ul>
+<li><p>Gesture Recognition: Made a functional gesture recognition module attached to a glove, capable of capturing any hand movement in 3-D space.</p>
+<ul>
+<li>The module could guess 39 out of 43 gestures specified by DRDO, with probability 1</li>
+</ul></li>
+<li><p>AD-HOC Localization: Implemented localization of Raspberry PIs in an Ad-hoc network to locate and pin- point any device in the network.</p>
+<ul>
+<li>The module was capable of tracking nodes in a radius of 100m in closed room environment and around 200m in an outdoor environment.</li>
+</ul></li>
+</ul>
+<p><strong>Smart Meter</strong></p>
+<p>Made a working prototype of a smart energy meter capable of tracking energy consumption and relaying it to a server in real-time.</p>
+<h2 id="work-experience">Work Experience</h2>
+<dl>
+<dt>2018</dt>
+<dd><p><strong>Summer Internship</strong>; NemoCare (CFHE - IIT Hyderabad)</p>
+<p>Took up an internship as an IoT developer. Worked on a module to collect and transmit health data of infants to a single hub</p>
+<p>Used Arduino IDE and open-source I2C libraries for the same</p>
+</dd>
+</dl>
+<h2 id="technical-experience">Technical Experience</h2>
+<p><strong>Machine Learning and Deep Learning Frameworks</strong> :</p>
+<ul>
+<li>Tensorflow</li>
+<li>Keras</li>
+<li>Scikit-learn</li>
+</ul>
+<p><strong>Programming Languages</strong> :</p>
+<ul>
+<li>Python (Proficient)</li>
+<li>C (Intermediate)</li>
+<li>Bash</li>
+<li>Latex</li>
+<li>Octave</li>
+</ul>
+<p><strong>Related Coursework</strong> :</p>
+<p>I’ve undertaken courses in Introduction to AI and ML, Representation Learning, Data analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and persued mini-projects in the same.</p>
+<p><a href="https://github.com/chakri1804" target="_blank">GitHub Repo</a></p>
+<h2 id="achievements-and-cca">Achievements and CCA</h2>
+<ul>
+<li>Got selected in the KVPY programme and was eligible for KVPY scholarship</li>
+<li>Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for our Smart power meter project</li>
+<li>Secured AIR 2015 in JEE-Advanced 2016</li>
+<li>Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad</li>
+<li>Worked as Teaching Assistant under Dr.Sushmee Badhulika (Electric Circuits course)</li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="mailto:chakri1804@gmail.com">chakri1804@gmail.com</a> , <a href="mailto:ee16btech11022@iith.ac.in">ee16btech11022@iith.ac.in</a> • +91 8500584109 • 19 years old<br />
+Address - 17-1-388/P/82, Purnodaya Colony, Saidabad, Hyderabad</p>
+</blockquote>
+</body>
+</html>
