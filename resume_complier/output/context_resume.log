@@ -30,79 +30,26 @@ close source    > level 1, order 4, name '/usr/share/texmf/tex/context/base/mkiv
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/legion/.texlive2017/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.073 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 11 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 404 modules (0.278 sec), 91 tables (0.010 sec), 495 chunks (0.288 sec)
-mkiv lua stats  > traced context: maxstack: 1231, freed: 0, unreachable: 1231
-mkiv lua stats  > cleaned up reserved nodes: 58 nodes, 9 lists of 447
-mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 49 glue_spec, 3 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 499 calls
-mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: 939 direct, 787 indirect, 1726 total
-mkiv lua stats  > randomizer: resumed with value 0.92617275934954
-mkiv lua stats  > loaded patterns: en::2, load time: 0.000
-mkiv lua stats  > interactive elements: 6 references, 10 destinations
-mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
-mkiv lua stats  > loaded fonts: 3 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 0 common vectors, 4 common hashes, load time 0.151 seconds 
-mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
-mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
-mkiv lua stats  > luatex banner: this is luatex, version 1.0.4 (tex live 2017/debian)
-mkiv lua stats  > control sequences: 45397 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 90 MB (ctx: 89 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.56 seconds, 2 processed pages, 2 shipped pages, 3.571 pages/second
-
-mtx-context     | run 2: luatex --fmt="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en" --jobname="resume" --lua="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en.lui" --no-parse-first-line --c:currentrun=2 --c:fulljobname="./resume.tex" --c:input="./resume.tex" --c:kindofrun=2 --c:maxnofruns=9 "cont-yes.mkiv"
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
- system commands enabled.
-open source     > level 1, order 1, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
-system          > 
-system          > ConTeXt  ver: 2017.05.15 21:48 MKIV beta  fmt: 2018.5.29  int: english/english
-system          > 
-system          > 'cont-new.mkiv' loaded
-open source     > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
-close source    > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
-system          > files > jobname 'resume', input './resume', result 'resume'
-fonts           > latin modern fonts are not preloaded
-languages       > language 'en' is active
-open source     > level 2, order 3, name '/home/legion/Documents/sem_5/Resume/My_Resume/resume_complier/output/resume.tex'
-colors          > defining > unknown library 'hex'
-open source     > level 3, order 4, name '/usr/share/texmf/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
-close source    > level 3, order 4, name '/usr/share/texmf/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
-structure       > sectioning > section @ level 3 : 0.0.1 -> Nakka Chakradhar
-structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
-structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Projects
-structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Work Experience
-backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
-pages           > flushing realpage 1, userpage 1, subpage 1
-structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Technical Experience
-structure       > sectioning > subsection @ level 4 : 0.0.1.5 -> Achievements and CCA
-pages           > flushing realpage 2, userpage 2
-close source    > level 2, order 4, name '/home/legion/Documents/sem_5/Resume/My_Resume/resume_complier/output/resume.tex'
-close source    > level 1, order 4, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
-
-mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
-mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/legion/.texlive2017/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
 mkiv lua stats  > resource resolver: loadtime 0.076 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 11 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 404 modules (0.276 sec), 91 tables (0.010 sec), 495 chunks (0.286 sec)
+mkiv lua stats  > stored bytecode data: 404 modules (0.275 sec), 91 tables (0.011 sec), 495 chunks (0.285 sec)
 mkiv lua stats  > traced context: maxstack: 1231, freed: 0, unreachable: 1231
 mkiv lua stats  > cleaned up reserved nodes: 58 nodes, 9 lists of 447
 mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 49 glue_spec, 3 attribute_list, 2 temp, 2 user_defined
 mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 499 calls
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: 939 direct, 787 indirect, 1726 total
+mkiv lua stats  > callbacks: 939 direct, 789 indirect, 1728 total
 mkiv lua stats  > randomizer: resumed with value 0.92617275934954
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
 mkiv lua stats  > interactive elements: 6 references, 10 destinations
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 3 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 0 common vectors, 4 common hashes, load time 0.170 seconds 
+mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 0 common vectors, 4 common hashes, load time 0.178 seconds 
 mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > luatex banner: this is luatex, version 1.0.4 (tex live 2017/debian)
-mkiv lua stats  > control sequences: 45396 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 89 MB (ctx: 89 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.585 seconds, 2 processed pages, 2 shipped pages, 3.419 pages/second
+mkiv lua stats  > control sequences: 45397 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 89 MB (ctx: 88 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.586 seconds, 2 processed pages, 2 shipped pages, 3.413 pages/second
 
-system          | total runtime: 1.738 seconds
+system          | total runtime: 0.885 seconds

@@ -31,7 +31,7 @@ Implimented a real-time face recognition on Web-cam footage
 
 * Achieved 98% accuracy on a custom made dataset. Also achieved live face recognition on 720p webcam feed.
 
-* [GitHub repo](http://www.example.com)
+* [GitHub repo](https://github.com/chakri1804/Face-Gait_recognition)
 
 **Gait recognition with Keras**
 
@@ -39,7 +39,7 @@ Implimented a gait-recognition deep-net by cascading two networks - HumanPoseNN 
 
 * Achieved an accuracy of 92.8%
 
-* [GitHub repo](http://www.example.com)
+* [GitHub repo](https://github.com/chakri1804/Face-Gait_recognition)
 
 **Lung Tumor Segmentation**
 
