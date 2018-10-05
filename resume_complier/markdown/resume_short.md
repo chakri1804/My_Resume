@@ -1,38 +1,16 @@
 Nakka Chakradhar
 ============
 
-----
-
->  Potential intern
->   
->  
-
-----
-
 Education
 ---------
 
 2016-2020 (expected)
 :   **BTech, Electrical Engineering**; Indian Institute of Technology (Hyderabad)
 
-    Currently pursuing Bachelor of Technology, third year and Honors specialization
+    Currently pursuing Bachelor of Technology, third year and Honors
     in Electrical Engineering.
 
-    Current CGPA – 8.8
-
-2014-2016
-:   **Intermediate Education**; FIITJEE Saifabad Campus (Hyderabad)
-
-    Got a fee waiver of 60% after an All India entrance test
-
-    Cumulative marks – 981/1000
-
-2010-2014
-:   **Primary Education**; Little Flower High School (Hyderabad)
-
-    Consistently scored the highest in my peer group.
-
-    CGPA – 9.7
+    Current CGPA : 8.8
 
 Projects
 ----------
@@ -61,7 +39,7 @@ Worked on segmentation of lung tumors on DICOM images as a part of IEEE VIP-CUP 
 
 **Inter IIT Tech Meet 2017**
 
-Worked on the Soldier Support Problem statement offered by DRDO. The problem statement involved 4 sub problem statements
+Worked on the Soldier Support Problem statement offered by DRDO. Finished 7th overall across all IITs.
 
 * Gesture Recognition:
 Made a functional gesture recognition module attached to a glove, capable of
@@ -77,9 +55,10 @@ point any device in the network.
     * The module was capable of tracking nodes in a radius of 100m in closed room
       environment and around 200m in an outdoor environment.
 
+
 **Smart Meter**
 
-Made a working prototype of a smart energy meter capable of tracking energy consumption and relaying it to a server in real-time.
+Made a working prototype smart energy meter capable of tracking energy consumption and relaying it to a server in real-time.
 
 Work Experience
 ---------------
@@ -87,32 +66,40 @@ Work Experience
 2018
 :   **Summer Internship**; NemoCare (CFHE - IIT Hyderabad)
 
-    Took up an internship as an IoT developer. Worked on a module to collect and transmit health data of infants to a single hub
+    Interned as an IoT developer. Worked on a module to collect and transmit health data of infants to a single hub
 
     Used Arduino IDE and open-source I2C libraries for the same
 
 Technical Experience
 --------------------
-**Machine Learning and Deep Learning Frameworks**
+
+**Machine Learning and Deep Learning Frameworks** :
+
 * Tensorflow
 * Keras
 * Scikit-learn
 
-**Programming Languages**
+**Python Packages** :
+
+Numpy, Scipy, Pandas, Matplotlib, PIL, OpenCV
+
+**Programming Languages** :
+
 * Python (Proficient)
 * C (Intermediate)
 * Bash
 * Latex
 * Octave
 
-**Related Coursework**
+**Related Coursework** :
 
-I've undertaken courses in Introduction to AI and ML, Representation Learning, Data analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and persued mini-projects in the same
-[ref]: https://github.com/chakri1804
+I've undertaken courses on Introduction to AI and ML, Representation Learning, Data analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and persued mini-projects in these areas.
+
+[GitHub Repo](https://github.com/chakri1804)
 
 Achievements and CCA
 ----------------------------------------
-* Got selected in the KVPY programme and was eligible for KVPY scholarship
+* Selected for the KVPY programme and was eligible for KVPY scholarship
 * Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for our Smart power meter project
 * Secured AIR 2015 in JEE-Advanced 2016
 * Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad
@@ -120,5 +107,6 @@ Achievements and CCA
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <chakri1804@gmail.com> , <ee16btech11022@iith.ac.in> • [github.com/chakri1804](https://github.com/chakri1804) \
+> +91 8500584109 • +91 9398941169 • DOB: 18/04/1999\
+> Address - 17-1-388/P/82, Purnodaya Colony, Saidabad, Hyderabad
