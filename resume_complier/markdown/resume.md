@@ -29,9 +29,7 @@ Projects
 
 Implimented a real-time face recognition on Web-cam footage
 
-* Achieved 98% accuracy on a custom made dataset.
-
-* Face recognition on videos was achieved at 24 FPS. The input was a 60FPS capable 720p webcam
+* Achieved 98% accuracy on a custom made dataset. Also achieved live face recognition on 720p webcam feed.
 
 * [GitHub repo](http://www.example.com)
 
@@ -100,6 +98,10 @@ Numpy, Scipy, Pandas, Matplotlib, PIL, OpenCV
 * Bash
 * Latex
 * Octave
+
+**Areas of Interest**
+
+Machine Learning and Deep Learning, Computer Vision, Image and Video processing
 
 **Related Coursework** :
 
