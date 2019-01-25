@@ -10,7 +10,7 @@ Education
     Currently pursuing Bachelor of Technology, third year and Honors
     in Electrical Engineering.
 
-    Current CGPA : 8.8
+    Current CGPA : 8.71
 
 2014-2016
 :   **Intermediate Education**; FIITJEE Hyderabad
@@ -78,6 +78,11 @@ Work Experience
 
     Used Arduino IDE and open-source I2C libraries for the same
 
+2018
+:   **Winter Internship**; Hexagon Capability Center
+
+    Worked on point cloud segmentation using Deep-Learning methods, specifically worked with PointNet architecture and tested the feasibility of transfer learning for the same
+
 Technical Experience
 --------------------
 
@@ -90,14 +95,6 @@ Technical Experience
 **Python Packages** :
 
 Numpy, Scipy, Pandas, Matplotlib, PIL, OpenCV
-
-**Programming Languages** :
-
-* Python (Proficient)
-* C (Intermediate)
-* Bash
-* Latex
-* Octave
 
 **Areas of Interest**
 
