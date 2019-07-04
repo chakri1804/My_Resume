@@ -1,10 +1,11 @@
 
+resolvers       | caches | path '/home/phil_intern/.texmf-var' created
 mtx-context     | run 1: luatex --fmt="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en" --jobname="resume" --lua="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en.lui" --no-parse-first-line --c:currentrun=1 --c:fulljobname="./resume.tex" --c:input="./resume.tex" --c:kindofrun=1 --c:maxnofruns=9 "cont-yes.mkiv"
 This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238) 
  \write18 enabled.
 open source     > 1 > 1 > /usr/share/texmf/tex/context/base/cont-yes.mkiv
 
-ConTeXt  ver: 2015.05.18 12:26 MKIV current  fmt: 2019.1.4  int: english/english
+ConTeXt  ver: 2015.05.18 12:26 MKIV current  fmt: 2019.7.4  int: english/english
 
 system          > 'cont-new.mkiv' loaded
 open source     > 2 > 2 > /usr/share/texmf/tex/context/base/cont-new.mkiv
@@ -12,11 +13,38 @@ close source    > 2 > 2 > /usr/share/texmf/tex/context/base/cont-new.mkiv
 system          > files > jobname 'resume', input './resume', result 'resume'
 fonts           > latin modern fonts are not preloaded
 languages       > language 'en' is active
-open source     > 2 > 3 > /home/grumptitan/My_Resume/resume_complier/output/resume.tex
+open source     > 2 > 3 > /home/phil_intern/My_Resume/resume_complier/output/resume.tex
 colors          > defining > unknown library 'hex'
 open source     > 3 > 4 > /usr/share/texmf/tex/context/base/type-imp-texgyre.mkiv
 close source    > 3 > 4 > /usr/share/texmf/tex/context/base/type-imp-texgyre.mkiv
+fonts           > otf loading > loading '/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf', hash 'texgyreheros-regular'
+fonts           > otf loading > loading done
+fonts           > otf loading > file size: 133600
+fonts           > otf loading > 57 lookup tags compacted
+fonts           > otf loading > 114 bogus names removed
+fonts           > otf loading > saving '/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf' in cache
+system          > lua > compiling '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-regular.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-regular.tmc'
+system          > lua > dumping '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-regular.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-regular.tmc' stripped
+fonts           > otf loading > preprocessing and caching time 0.330, packtime 0.073
+fonts           > otf loading > loading '/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf', hash 'latinmodern-math'
+fonts           > otf loading > loading done
+fonts           > otf loading > file size: 733736
+fonts           > otf loading > 15 lookup tags compacted
+fonts           > otf loading > 3028 bogus names removed
+fonts           > otf loading > saving '/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf' in cache
+system          > lua > compiling '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/latinmodern-math.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/latinmodern-math.tmc'
+system          > lua > dumping '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/latinmodern-math.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/latinmodern-math.tmc' stripped
+fonts           > otf loading > preprocessing and caching time 0.585, packtime 0.069
 structure       > sectioning > section @ level 3 : 0.0.1 -> Nakka Chakradhar
+fonts           > otf loading > loading '/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf', hash 'texgyreheros-bold'
+fonts           > otf loading > loading done
+fonts           > otf loading > file size: 135204
+fonts           > otf loading > 57 lookup tags compacted
+fonts           > otf loading > 114 bogus names removed
+fonts           > otf loading > saving '/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf' in cache
+system          > lua > compiling '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-bold.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-bold.tmc'
+system          > lua > dumping '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-bold.tma' into '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/fonts/otf/texgyreheros-bold.tmc' stripped
+fonts           > otf loading > preprocessing and caching time 0.290, packtime 0.083
 structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
 structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Projects
 structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Work Experience
@@ -25,33 +53,33 @@ pages           > flushing realpage 1, userpage 1
 structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Technical Experience
 structure       > sectioning > subsection @ level 4 : 0.0.1.5 -> Achievements and CCA
 pages           > flushing realpage 2, userpage 2
-close source    > 2 > 4 > /home/grumptitan/My_Resume/resume_complier/output/resume.tex
+close source    > 2 > 4 > /home/phil_intern/My_Resume/resume_complier/output/resume.tex
 close source    > 1 > 4 > /usr/share/texmf/tex/context/base/cont-yes.mkiv
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
-mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/grumptitan/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.007 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 11 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 371 modules (0.150 sec), 78 tables (0.005 sec), 449 chunks (0.155 sec)
+mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/phil_intern/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
+mkiv lua stats  > resource resolver: loadtime 0.066 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 11 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 371 modules (0.484 sec), 78 tables (0.016 sec), 449 chunks (0.500 sec)
 mkiv lua stats  > traced context: maxstack: 1139, freed: 7, unreachable: 1132
 mkiv lua stats  > running in nuts mode: yes
 mkiv lua stats  > cleaned up reserved nodes: 53 nodes, 439 lists of 438
 mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 45 glue_spec, 3 attribute_list, 2 temp
 mkiv lua stats  > node list callback tasks: 6 unique task lists, 7 instances (re)created, 496 calls
-mkiv lua stats  > h-node processing time: 0.012 seconds including kernel
+mkiv lua stats  > h-node processing time: 0.019 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
-mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.000 seconds loading
-mkiv lua stats  > callbacks: 947 direct, 771 indirect, 1718 total
+mkiv lua stats  > jobdata time: 0.009 seconds saving, 0.003 seconds loading
+mkiv lua stats  > callbacks: 947 direct, 772 indirect, 1719 total
 mkiv lua stats  > randomizer: resumed with value 0.92617275934954
 mkiv lua stats  > interactive elements: 6 references, 11 destinations
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 3 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-regular.otf
-mkiv lua stats  > fonts load time: 0.117 seconds for 9 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
+mkiv lua stats  > fonts load time: 1.743 seconds for 9 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
 mkiv lua stats  > pdf annotations: 6 links (6 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > luatex banner: this is luatex, version beta-0.80.0 (tex live 2015/debian) (rev 5238)
 mkiv lua stats  > control sequences: 43439 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 61 MB (ctx: 60 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.408 seconds, 2 processed pages, 2 shipped pages, 4.902 pages/second
+mkiv lua stats  > lua properties: engine: lua, used memory: 114 MB (ctx: 114 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 2.603 seconds, 2 processed pages, 2 shipped pages, 0.768 pages/second
 
-system          | total runtime: 0.564 seconds
+system          | total runtime: 3.560 seconds

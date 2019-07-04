@@ -10,7 +10,7 @@ Education
     Currently pursuing third year in Bachelor of Technology and Honors
     in Electrical Engineering.
 
-    Current CGPA : 8.71
+    Current CGPA : 8.86
 
 2014-2016
 :   **Intermediate Education**; FIITJEE, Hyderabad
@@ -43,7 +43,7 @@ Implemented a gait-recognition deep-net by cascading two networks - HumanPoseNN 
 
 **Lung Tumor Segmentation**
 
-Worked on segmentation of lung tumors on DICOM images as a part of IEEE VIP-CUP problem statement (VIP-CUP 2018).
+Worked on segmentation of lung tumors on DICOM images as a part of IEEE VIP-CUP problem statement (VIP-CUP 2018). Secured 6th position in the same.
 
 **Inter IIT Tech Meet 2017**
 
