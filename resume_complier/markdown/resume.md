@@ -83,6 +83,11 @@ Work Experience
 
     Worked on point cloud segmentation using PointNet architecture and tested the feasibility of transfer learning.
 
+2019
+:   **Summer Internship**; Philips Innovation Campus (Bangalore)
+
+    Worked on risk models for medical applications, especially RISK SLIM and implemented the same using open-source non-linear optimisation tools with Python.
+
 Technical Experience
 --------------------
 
@@ -98,11 +103,11 @@ Numpy, Scipy, Pandas, Matplotlib, PIL, OpenCV
 
 **Areas of Interest**:
 
-Machine Learning and Deep Learning, Computer Vision, Image and Video processing
+Machine Learning and Deep Learning, Computer Vision, Image and Video processing, GANS
 
 **Related Coursework**:
 
-I've undertaken courses on Introduction to AI and ML, Representation Learning, Data Analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and pursued mini-projects in these areas.
+I've undertaken courses on Introduction to AI and ML, Representation Learning, Video Content Analysis, Data Analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and pursued mini-projects in these areas.
 
 [GitHub Repo](https://github.com/chakri1804)
 
@@ -112,7 +117,7 @@ Achievements and CCA
 * Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for our Smart Power Meter project
 * Secured AIR 2015 in JEE-Advanced 2016
 * Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad
-* Worked as Teaching Assistant under Dr. Sushmee Badhulika ()
+* Worked as Teaching Assistant under Dr. Sushmee Badhulika
 
 ----
 
