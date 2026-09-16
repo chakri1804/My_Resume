@@ -3,7 +3,14 @@ Nakka Chakradhar
 
 Work Experience
 ---------
-2023 Oct - Current
+2026 Jan - Current
+:  **Senior ML Engineer**; The Real Brokerage, USA (India - Remote)
+
+    * Built **leo-vectors**, a Ray Serve GPU embedding service (SigLIP v2, Gemma, DINOv2 dedupe) with realtime / batch scheduling
+    * Shipped enhanced image search on 100+M images - Gemini VLM captioning, OpenSearch property embeddings, vector reranking, buyer ranking
+    * Built agent workflows in **Ari** / **Hawkeye** - LLM-judged re-engagement outreach, agents-as-code publishing, agent-run verification loop, Kafka-triggered tasks
+
+2023 Oct - 2025 Dec
 :  **AI Research Engineer**; DeepReel, London (India - Remote)
 
     * Developed and fine-tuned FLAME-based 3D facial tracking, lipsync models, neural textures and neural rendering pipelines for avatar training and inference
@@ -31,6 +38,10 @@ Education
 :   **BTech, Electrical Engineering**; **Indian Institute of Technology**, Hyderabad
 
     CGPA : 9.00
+
+```{=context}
+\page
+```
 
 Projects
 ----------

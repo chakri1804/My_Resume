@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Build outputs — only the PDF is tracked
+resume_complier/output/*
+!resume_complier/output/*.pdf
