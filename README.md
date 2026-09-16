@@ -1,51 +1,74 @@
 Nakka Chakradhar
 ============
 
+Work Experience
+---------
+2023 Oct - Current
+:  **AI Research Engineer**; DeepReel, London (India - Remote)
+
+    Worked on FLAME based 3D-facial tracking, 3D lipsync models, neural textures and neural rendering to improve in-house avatar training and inference.
+    Assisted in researching Gaussian Splatting based models to improve facial expressions of avatars. Worked on an agentic video-generation platform named Genie which orchestrated LLMs for end-to-end video production steps and using the avatar product to create explainer videos.
+
+2022 Dec - 2023 Sept
+:  **AI Research and Development Lead**; Frinks AI, Bangalore
+
+    Worked towards conducting the R&D required for the pre-development of the components that went into the platform. 
+    Researched and solved problems that involve high volume and robust object detection, dimensioning, segmentation and anomaly detection to detect the presence of defects in products. 
+
+
+2020 Sept - 2022 Dec
+:  **Graduate Software Engineer Trainee**; Jaguar Land Rover, Bangalore
+
+    Worked as ADAS (Autonomous Driver Assistant Systems) Engineer.
+    Primarily worked 3D Object detection problem in Lidar domain using Pytorch and matplotlib for visualisation.
+
+2020 May - 2020 July
+:  **ML Freelance Architect**; Frinks AI, Bangalore
+
+    Implemented a real-time face recognition module on web-cam footage and cascaded mask detection on top of it.
+
+2019 May - 2019 July
+:  **ML Intern**; Philips Innovation Campus, Bangalore
+
+    Implemented a Bonmin based quantized convex optimisation algorithm which uses symtopms and scores to determine diseases
+    with a certain accuracy. Implemented a GAN to generate samples of ultrasound scans (of infants) with malformed hearts.  
+
+2018 Dec
+:   **Winter Internship**; Hexagon Capability Center, Hyderabad
+
+    Worked on point cloud segmentation using PointNet architecture and tested the feasibility of transfer learning.
+
 Education
 ---------
 
-2016-2020 (expected)
-:   **BTech, Electrical Engineering**; Indian Institute of Technology (Hyderabad)
+2016-2020
+:   **BTech, Electrical Engineering**; **Indian Institute of Technology**, Hyderabad
 
-    Currently pursuing Bachelor of Technology, third year and Honors specialization
-    in Electrical Engineering.
+    Bachelor of Technology in Electrical Engineering.
 
-    Current CGPA – 8.8
+    CGPA : 9.00
 
 2014-2016
-:   **Intermediate Education**; FIITJEE Saifabad Campus (Hyderabad)
+:   **Intermediate Education**; FIITJEE, Hyderabad
 
-    Got a fee waiver of 60% after an All India entrance test
-
-    Cumulative marks – 981/1000
+    Cumulative marks : 98.1%
 
 2010-2014
-:   **Primary Education**; Little Flower High School (Hyderabad)
+:   **Primary Education**; Little Flower High School, Hyderabad
 
-    Consistently scored the highest in my peer group.
-
-    CGPA – 9.7
+    CGPA : 9.7
 
 Projects
 ----------
 
-**Facial Recognition with OpenCV, DLib and a flavor of FaceNet**
+**Supervised Deep Learning for MIMO Precoding** : [Link](https://ieeexplore.ieee.org/document/9221261)
 
-Implimented a real-time face recognition on Web-cam footage
-
-* Achieved 98% accuracy on a custom made dataset.
-
-* Face recognition on videos was achieved at 24 FPS. The input was a 60FPS capable 720p webcam
-
-* [GitHub repo](http://www.example.com)
+Implemented an end to end network to replace the source coding, channel coding and decryption of messages on the receiver end. 
+The architecture almost achieved shannon capacity and learned to efficiently encode the input messages as well.
 
 **Gait recognition with Keras**
 
-Implimented a gait-recognition deep-net by cascading two networks - HumanPoseNN and GaitNN.
-
-* Achieved an accuracy of 92.8%
-
-* [GitHub repo](http://www.example.com)
+Implemented a gait-recognition deep-net by cascading two networks - HumanPoseNN and GaitNN.
 
 **Lung Tumor Segmentation**
 
@@ -53,68 +76,41 @@ Worked on segmentation of lung tumors on DICOM images as a part of IEEE VIP-CUP 
 
 **Inter IIT Tech Meet 2017**
 
-Worked on the Soldier Support Problem statement offered by DRDO. The problem statement involved 4 sub problem statements
+Worked on 'Soldier Support', a problem statement offered by DRDO.
 
 * Gesture Recognition:
-Made a functional gesture recognition module attached to a glove, capable of
-capturing any hand movement in 3-D space.
-
-  * The module could guess 39 out of 43 gestures specified by DRDO, with
-    probability 1
-
-* AD-HOC Localization:
-Implemented localization of Raspberry PIs in an Ad-hoc network to locate and pin-
-point any device in the network.
-
-    * The module was capable of tracking nodes in a radius of 100m in closed room
-      environment and around 200m in an outdoor environment.
-
-**Smart Meter**
-
-Made a working prototype of a smart energy meter capable of tracking energy consumption and relaying it to a server in real-time.
-
-Work Experience
----------------
-
-2018
-:   **Summer Internship**; NemoCare (CFHE - IIT Hyderabad)
-
-    Took up an internship as an IoT developer. Worked on a module to collect and transmit health data of infants to a single hub
-
-    Used Arduino IDE and open-source I2C libraries for the same
-
+Made a functional gesture recognition module attached to a glove, capable of capturing any hand movement in 3-D space.
+ 	
 Technical Experience
 --------------------
 
-**Machine Learning and Deep Learning Frameworks** :
+**Machine Learning and Deep Learning Frameworks**:
 
-* Tensorflow
-* Keras
-* Scikit-learn
+Pytorch, Tensorflow, Keras
 
-**Programming Languages** :
+**Tools**:
 
-* Python (Proficient)
-* C (Intermediate)
-* Bash
-* Latex
-* Octave
+FFMPEG, GCP and Azure (Beginner), ComfyUI and Swarm (Intermediate), HuggingFace, FAL, 
 
-**Related Coursework** :
+**Areas of Interest**:
 
-I've undertaken courses in Introduction to AI and ML, Representation Learning, Data analytics, Random process, Linear Algebra, Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and persued mini-projects in the same.
+Machine Learning and Deep Learning, Computer Vision, Image and Video processing, Language Models (VLMs/LLMs), Diffusion Transformers
 
-[GitHub Repo](https://github.com/chakri1804)
+**Related Coursework**:
+
+I've undertaken courses in AI and ML, Representation Learning, Data Analytics, Random process, Linear Algebra, Image and Video Processing,
+Digital Modulation Techniques, Information Theory, Digital Signal Processing, IoT and pursued mini-projects in these areas.
 
 Achievements and CCA
 ----------------------------------------
-* Got selected in the KVPY programme and was eligible for KVPY scholarship
-* Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for our Smart power meter project
+* Bagged first prize for my team in GDD Hackathon conducted within JLR on the topic of 360 degree vision
+* Selected for the KVPY programme and was eligible for KVPY scholarship
+* Megathon 2k17 Runners-up (Hackathon conducted at IIIT Hyderabad) for our Smart Power Meter project
 * Secured AIR 2015 in JEE-Advanced 2016
-* Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad
-* Worked as Teaching Assistant under Dr.Sushmee Badhulika (Electric Circuits course)
+* Worked as Co-ordinator for Elektronica - the Electronics Club of IIT Hyderabad
+* Worked as Teaching Assistant under Dr. Sushmee Badhulika and Dr. Sumohana Chennappayya (Associate Professor, Deparment of Electrical Engineering, IIT Hyderabad)
 
 ----
 
-> <chakri1804@gmail.com> , <ee16btech11022@iith.ac.in> • +91 8500584109 • 19 years old\
-> Address - 17-1-388/P/82, Purnodaya Colony, Saidabad, Hyderabad
+> <chakri1804@gmail.com> • [github.com/chakri1804](https://github.com/chakri1804) \
+> +91 9398941169 • DOB: 18/04/1999

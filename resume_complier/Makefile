@@ -6,6 +6,8 @@ STYLE=chmduquesne
 all: html pdf docx rtf
 
 pdf: init
+	mkdir -p $(OUT_DIR)/trash
+	export LUA_CPATH="/usr/lib/x86_64-linux-gnu/lua/5.3/?.so;;"; \
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
@@ -14,6 +16,7 @@ pdf: init
 			--variable papersize=A4 \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		mv $(OUT_DIR)/$$FILE_NAME.tex $(OUT_DIR)/$$FILE_NAME.tuc $(OUT_DIR)/context_$$FILE_NAME.log $(OUT_DIR)/$$FILE_NAME.log $(OUT_DIR)/trash/ 2>/dev/null || true; \
 	done
 
 html: init
